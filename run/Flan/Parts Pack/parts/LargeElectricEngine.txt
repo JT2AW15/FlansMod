@@ -12,7 +12,7 @@ RFDrawRate 2000
 WorksWith vehicles planes
 StackSize 4
 RecipeOutput 1
-Recipe R redstoneCoil I blockIron
+Recipe R redstoneCoil I blockSteel
 RRR
 RIR
 RRR

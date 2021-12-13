@@ -12,7 +12,7 @@ RFDrawRate 100000
 WorksWith vehicles planes
 StackSize 4
 RecipeOutput 1
-Recipe L lightgem D denseRedstoneCoil I blockIron
+Recipe L lightgem D denseRedstoneCoil I blockSteel
 LDL
 DID
 LDL

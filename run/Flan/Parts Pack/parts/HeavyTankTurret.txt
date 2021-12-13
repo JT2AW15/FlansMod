@@ -7,7 +7,7 @@ Colour 255 255 255
 Category Turret
 StackSize 4
 RecipeOutput 1
-Recipe I ingotIron B tankBarrel P blockIron 
+Recipe I ingotSteel B tankBarrel P blockSteel
    
 PPB
 II 

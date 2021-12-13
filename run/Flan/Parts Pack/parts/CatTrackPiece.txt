@@ -7,7 +7,7 @@ Colour 255 255 255
 Category Misc
 StackSize 64
 RecipeOutput 4
-Recipe I ingotIron
+Recipe I ingotIron S ingotSteel
  I 
-III
+SSS
 I I

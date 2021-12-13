@@ -10,7 +10,7 @@ FuelConsumption 1.8
 WorksWith vehicles planes
 StackSize 4
 RecipeOutput 1
-Recipe I blockIron P enginePiston
+Recipe I blockSteel P enginePiston
 PPP
 PIP
 PPP

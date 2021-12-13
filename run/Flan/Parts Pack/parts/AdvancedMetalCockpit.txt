@@ -7,7 +7,7 @@ Colour 255 255 255
 Category Cockpit
 StackSize 4
 RecipeOutput 1
-Recipe C minecart G glass I blockIron R blockRedstone
+Recipe C minecart G glass I blockSteel R blockRedstone
 GGI
 GCR
 IRI

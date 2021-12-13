@@ -7,7 +7,7 @@ Colour 255 255 255
 Category Wheel
 StackSize 8
 RecipeOutput 1
-Recipe I ingotIron L leather
+Recipe I ingotSteel L leather
 LLL
 LIL
 LLL
