@@ -712,7 +712,7 @@ public class InfoType
 		String basicOres[] = {"Steel", "Nickel", "Lead", "Copper", "Tin", "Aluminum"};
 		String advOres[] = {"Electrum", "Constantan", "Silver", "Bronze", "Platinum", "Iridium"};
 		// String[] ores[] = {basicOres, advOres};
-
+    
 		for (String p : parts)
 		{
 			for (String b : basicOres)
@@ -734,7 +734,7 @@ public class InfoType
 					AddOreDictEntry(p + a, Ingredient.fromItem(Items.GOLD_INGOT));
 			}
 		}
-		
+
 		// Iron parts with ingot fallback
 		AddOreDictEntry("plateIron", Ingredient.fromItem(Items.IRON_INGOT));
 		AddOreDictEntry("gearIron", Ingredient.fromItem(Items.IRON_INGOT));

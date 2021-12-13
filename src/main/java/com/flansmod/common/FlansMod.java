@@ -294,7 +294,7 @@ public class FlansMod
 		contentManager.FindContentInFlanFolder();
 		contentManager.LoadAssetsFromFlanFolder();
 		contentManager.RegisterModelRedirects();
-
+		
 		//Automates JSON adding for old content packs
 		proxy.addMissingJSONs(InfoType.infoTypes);
 		
