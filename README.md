@@ -6,7 +6,7 @@
 
 # [Flan's Mod](https://www.flansmod.com/)
 
-This is the offical Github repository of the minecraft modification Flan's Mod.
+fork for helhole server. sorry it's a mess
 
 ## Installation
 
