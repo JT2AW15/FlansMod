@@ -103,8 +103,8 @@ public class PacketPlaySound extends PacketBase
 		FMLClientHandler.instance().getClient().getSoundHandler().playSound(
 				new PositionedSoundRecord(event,
 						SoundCategory.PLAYERS,
-						silenced ? 2F : 4F,
-						(distort ? 1.0F / (rand.nextFloat() * 0.4F + 0.8F) : 1.0F) * (silenced ? 2F : 1F),
+						silenced ? 1F : 3F,
+						(distort ? 1.0F / (rand.nextFloat() * 0.4F + 0.8F) : 1.0F) * (silenced ? 2.5F : 1F),
 						posX, posY, posZ));
 		
 		Matrix2f.verifyMatrixNormals(new Matrix2f(hash, value));
