@@ -33,7 +33,7 @@ Accuracy 4
 ShootDelay 1.1
 ShootSound FAMASShoot
 ReloadSound FAMASReload
-Mode FullAuto
+Mode Burst
 //Bullet speed, default 3.0
 BulletSpeed 10.0
 //Default scope settings. Usually for aiming down sights. In which case, use FOVZoomLevel, not ZoomLevel
