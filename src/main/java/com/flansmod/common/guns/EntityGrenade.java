@@ -126,7 +126,7 @@ public class EntityGrenade extends EntityShootable implements IEntityAdditionalS
 		if(type.spinWhenThrown)
 			angularVelocity = new Vector3f(0F, 0F, 10F);
 		if(type.throwSound != null)
-			PacketPlaySound.sendSoundPacket(posX, posY, posZ, FlansMod.soundRange, dimension, type.throwSound, true);
+			PacketPlaySound.sendSoundPacket(posX, posY, posZ, FlansMod.soundRange*0.5, dimension, type.throwSound, true);
 	}
 	
 	/**

@@ -71,7 +71,7 @@ public class PacketSeatUpdates extends PacketBase
 			driveable.getSeat(seatId).prevLooking = driveable.getSeat(seatId).looking.clone();
 			driveable.getSeat(seatId).looking.setAngles(yaw, pitch, 0F);
 			//If on the server, update all surrounding players with these new angles
-			FlansMod.getPacketHandler().sendToAllAround(this, driveable.posX, driveable.posY, driveable.posZ, FlansMod.soundRange, driveable.dimension);
+			FlansMod.getPacketHandler().sendToAllAround(this, driveable.posX, driveable.posY, driveable.posZ, FlansMod.soundRange*0.7F, driveable.dimension);
 		}
 	}
 	

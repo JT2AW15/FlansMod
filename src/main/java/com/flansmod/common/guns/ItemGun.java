@@ -650,7 +650,7 @@ public class ItemGun extends Item implements IPaintableItem
 		// Play shot sounds
 		if(soundDelay <= 0 && type.shootSound != null)
 		{
-			PacketPlaySound.sendSoundPacket(position.x, position.y, position.z, silenced ? (FlansMod.soundRange*0.6F) : FlansMod.soundRange, world.provider.getDimension(), type.shootSound, silenced);
+			PacketPlaySound.sendSoundPacket(position.x, position.y, position.z, silenced ? (FlansMod.soundRange*0.5F) : FlansMod.soundRange, world.provider.getDimension(), type.shootSound, silenced);
 			soundDelay = type.idleSoundLength;
 		}
 	}
@@ -1171,7 +1171,7 @@ public class ItemGun extends Item implements IPaintableItem
 	public boolean onEntitySwing(EntityLivingBase entityLiving, ItemStack stack)
 	{
 		if(type.meleeSound != null)
-			PacketPlaySound.sendSoundPacket(entityLiving.posX, entityLiving.posY, entityLiving.posZ, FlansMod.soundRange, entityLiving.dimension, type.meleeSound, true);
+			PacketPlaySound.sendSoundPacket(entityLiving.posX, entityLiving.posY, entityLiving.posZ, FlansMod.soundRange*0.5F, entityLiving.dimension, type.meleeSound, true);
 		//Do custom melee code here
 		if(type.secondaryFunction == EnumSecondaryFunction.CUSTOM_MELEE)
 		{
